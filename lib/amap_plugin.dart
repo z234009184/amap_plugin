@@ -5,7 +5,8 @@ import 'package:flutter/services.dart';
 // ignore: must_be_immutable
 class AMapView extends StatelessWidget {
   static const methodChannelNameMap = 'flutter_native_mapview';
-  static const methodChannelNameStartLocation = 'methodChannelNameStartLocation';
+  static const methodChannelNameStartLocation =
+      'methodChannelNameStartLocation';
   MethodChannel _channel;
 
   @override
@@ -45,9 +46,7 @@ class AMapView extends StatelessWidget {
 
     // 监听Native的调用
     _channel.setMethodCallHandler((call) async {
-      if (call.method == '') {
-
-      }
+      if (call.method == '') {}
     });
   }
 
@@ -56,4 +55,3 @@ class AMapView extends StatelessWidget {
     _channel.invokeMethod(methodChannelNameStartLocation);
   }
 }
-

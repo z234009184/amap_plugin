@@ -1,6 +1,6 @@
 name: amap_plugin
-description: A new flutter plugin project.
-version: 0.0.3
+description: This is a gaud map plug-in. It supports IOS and Android platforms. Try to implement and unify the map API interfaces at both ends. This plug-in will be developed and maintained all the time, so that developers in China do not have to worry about maps. In later iterations, the plug-in will gradually support the functions of map display (including indoor and outdoor maps), interaction with maps, drawing on maps, interest point search, geographic coding, offline maps, etc.
+version: 0.0.4
 author: zhangguoliang <234009184@qq.com>
 homepage: https://github.com/z234009184/amap_plugin
 
