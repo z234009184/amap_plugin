@@ -29,7 +29,9 @@ static  NSString *methodChannelNameStartLocation = @"methodChannelNameStartLocat
 
 /// 初始化高德 API_KEY
 + (void)load {
-    [AMapServices sharedServices].apiKey = @"ada54e131b9d5fddbeb2af403f4e9654";
+    NSDictionary *infoDict = [[NSBundle mainBundle] infoDictionary];
+    NSString *apiKey = [infoDict objectForKey:@"AMapAPIKey"];
+    [AMapServices sharedServices].apiKey = apiKey;
 }
 
 - (instancetype)initWithFrame:(CGRect)frame viewIdentifier:(int64_t)viewId arguments:(id)args binaryMessenger:(NSObject<FlutterBinaryMessenger> *)messenger {

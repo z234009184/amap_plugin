@@ -2,6 +2,14 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>使用应用期间允许访问位置信息</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>始终允许访问位置信息</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>始终允许访问位置信息</string>
+	<key>AMapAPIKey</key>
+	<string>ada54e131b9d5fddbeb2af403f4e9654</string>
 	<key>io.flutter.embedded_views_preview</key>
 	<true/>
 	<key>CFBundleDevelopmentRegion</key>
