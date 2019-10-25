@@ -3,7 +3,7 @@
 
 ---
 ## Getting Started
----
+
 ### Add dependency
 ```
 dependencies:
@@ -68,7 +68,7 @@ Privacy - Location When In Use Usage Description  使用应用期间允许访问
 </string>
 ```
 ---
-#### Dart
+#### Flutter
 使用如下：
 
 ```

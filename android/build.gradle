@@ -36,15 +36,6 @@ android {
         targetCompatibility = 1.8
     }
     dependencies {
-
-        // 高德地图依赖配置
-//        implementation rootProject.fileTree(dir: 'libs', include: ['*.jar'])
-//        implementation rootProject.findProject(":com.amap.api:navi-3dmap:latest.integration")
-//        implementation rootProject.findProject(":com.amap.api:location:latest.integration")
-//        implementation rootProject.findProject(":com.amap.api:search:latest.integration")
-
-
-
         // 高德地图依赖配置
         implementation fileTree(dir: 'libs', include: ['*.jar'])
         implementation 'com.amap.api:navi-3dmap:latest.integration'

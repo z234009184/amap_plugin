@@ -1,14 +1,11 @@
-import 'dart:async';
-
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
+// ignore: must_be_immutable
 class AMapView extends StatelessWidget {
-
   static const methodChannelNameMap = 'flutter_native_mapview';
   static const methodChannelNameStartLocation = 'methodChannelNameStartLocation';
-
   MethodChannel _channel;
 
   @override
@@ -58,7 +55,5 @@ class AMapView extends StatelessWidget {
   void starLocation() {
     _channel.invokeMethod(methodChannelNameStartLocation);
   }
-
-
 }
 
